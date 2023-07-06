@@ -1,0 +1,58 @@
+#note-form {
+    max-width: 30rem;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 6px;
+    background-color: rgb(254, 240, 216);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  #note-form label,
+  #note-form input,
+  #note-form textarea {
+    display: block;
+    text-align: center;
+  }
+  
+  #note-form label {
+    margin-bottom: 0.5rem;
+    color: #2a2a2a;
+    font-weight: bold;
+  }
+  
+  #note-form input,
+  #note-form textarea {
+    width: 100%;
+    font: inherit;
+    padding: 0.5rem 0.25rem;
+    border: 1px #2a2a2a solid;
+    outline: none;
+    border-radius: 2px;
+    color: #2a2a2a;
+  }
+  
+  .form-actions {
+    text-align: center;
+  }
+  
+  .form-actions button {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 24px;
+    background-color: rgb(0, 94, 255);
+    color: white;
+    font-weight: bold;
+    font-size: 1.05rem;
+    margin-top: 20px;
+  }
+  
+  .form-actions button:hover {
+    background-color: rgba(0, 94, 255, 0.86);
+  }
+  
+  .form-actions button:disabled {
+    background-color: rgba(231, 231, 231, 0.922);
+    cursor: not-allowed;
+  }
